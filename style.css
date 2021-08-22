@@ -259,6 +259,10 @@ a{
     .header-burger.active .header-burger-line {
         transform: scaleX(0);
     }
+	
+    body.lock {
+        overflow: hidden;
+    }
 }
 
 .header-title{
